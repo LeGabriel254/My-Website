@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Leon</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#About">About</a></li>
+        <li><a href="#Resume">Resume<a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Leon</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()"></div>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu-links">
+      <li><a href="#About" onclick="toggleMenu()">About</a></li>
+      <li><a href="#Resume" onclick="toggleMenu()">Resume</a></li>
+      <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+
+
+    </div>
+  </nav>
+  <section id="hero">
+    <div class="section_pic-container">
+      <img src="me.png" alt="My profile picture">
+    </div>
+      <div class="section_text">
+        <p class="section_p1">Hello I'm</p>
+        <h1 class="title">Leon Gabriel</h1>
+        <p class="section_p2">Frontend Developer</p>
+        <div class="btn.container">
+          <button class="btn btn-color" onclick="window.open()">Download CV</button>
+          <button class="btn btn-color1" onclick="location.href='./#contact info'">Contact Info</button>
+        </div>
+        <div id="social-container">
+          <a href="https://x.com/LyonGabrie24988"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/its.leon.__/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/LeGabriel254"><i class="fa-brands fa-github"></i></a>
+
+        </div>
+      </div>
+  </section>
+  
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
