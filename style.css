@@ -7,6 +7,7 @@
 
 body{
   font-family:"Poppins", sans-serif ;
+  ;
 }
 html{
   scroll-behavior: smooth;
@@ -30,7 +31,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
 }
 .nav-links{
   gap: 1.8rem;
@@ -51,6 +52,8 @@ a:hover{
 }
 .logo{
   font-size: 2rem;
+  font-style: oblique;
+  font-weight: bolder;
 }
 .logo:hover{
   cursor: default;
@@ -125,20 +128,24 @@ section{
   box-sizing: border-box;
   min-height: fit-content;
 }
-.section-container{
+#section-container{
   display: flex;
+ 
 }
-#profile{
+#hero{
   display: flex;
   justify-content: center;
   gap: 5rem;
   height: 88vh;
 }
-.section-_pic-container{
+
+.section_pic-container{
 display: flex;
 height: 400px;
 width: 400px;
 margin:auto 0;
+border-radius: 5px;
+
 }
 .section_text{
   align-self: center;
@@ -152,6 +159,10 @@ text-align: center;
 font-size: 1.57rem;
 margin-bottom: 1rem;
 }
+.section_p2{
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
 .title{
   font-size: 3rem;
   text-align: center;
@@ -162,5 +173,43 @@ margin-bottom: 1rem;
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
+}
 
+.fa-brands fa-instagram {
+  cursor: pointer;
+  height: 2rem;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn{
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.btn-color1,.btn-color2{
+border: rgb(53,53,53) 0.1rem solid;
+}
+.btn-color1,
+.btn-color2:hover{
+  background: rgb(53,53,53);
+  color: white;
+}
+.btn-color2{
+background: none;
+}
+.btn-color1:hover{
+  background: rgb(0,0,0);
+}
+.btn-color2:hover{
+border:rgb(255,255,255);
+}
+.btn-container{
+  gap: 1rem;
 }
