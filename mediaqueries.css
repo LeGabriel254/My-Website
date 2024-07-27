@@ -70,7 +70,9 @@
   }
   .contact-info-container {
     margin: 0;
-    gap: 1.2rem;
+  }
+  .contact-icon{
+margin-left: 1.4rem;
   }
   .contact-info-container p,
   .nav-links li a {
