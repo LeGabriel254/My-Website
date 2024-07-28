@@ -123,6 +123,13 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
+.menu-links a:hover{
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
 .menu-links li {
   list-style: none;
 }
