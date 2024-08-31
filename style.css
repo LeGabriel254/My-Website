@@ -59,9 +59,10 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style:italic;
+  font-style:normal;
+  font-weight:600;
 }
 
 .logo:hover {
