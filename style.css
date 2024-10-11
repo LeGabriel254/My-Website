@@ -447,8 +447,8 @@ footer p {
 }
 
 .styled-paragraph {
-  text-align: justify;  /* Justified alignment of text */
-  text-indent: 0;        /* No indent */
-  line-height: 1.6;      /* Better readability */
-  margin-bottom: 20px;   /* Space after paragraph */
+  text-align: justify;  
+  text-indent: 0;        
+  line-height: 1.6;      
+  margin-bottom: 20px;   
 }
