@@ -13,6 +13,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+ scrollbar-width: none;
 }
 
 p {
@@ -425,6 +426,7 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0 1rem;
+  margin-bottom: -50rem;
 }
 
 footer p {
