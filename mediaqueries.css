@@ -1,8 +1,8 @@
 @media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
   .about-containers {
     flex-wrap: wrap;
   }
@@ -61,7 +61,7 @@
   }
   footer nav {
     height: fit-content;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   .about-containers,
   .contact-info-upper-container,
