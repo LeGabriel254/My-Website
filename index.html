@@ -1,372 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leon Gabriel</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">leon.dev</div>
-      <div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leon Gabriel</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">leon.dev</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">leon.dev</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" id="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div id="menu-links" class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/Ellipse4.jpg" alt="Leon profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Leon Gabriel</h1>
+      <p class="section__text__p2">Software Engineer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('Leon.pdf')">
+          Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/leon-gabriel-82655b308'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/LeGabriel254'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/leon.jpg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p style="text-align: justify;">Over one year of experience as a Software Engineer specializing in Frontend
+              Development, <br> with a strong focus on building responsive and user-friendly web applications.</p>
+          </div>
+          <div class="text-container">
+            <p>
+              I am passionate about everything that has to do with Digital design, Art Direction and creating
+              high-quality codes that follows best practices and industry standards. I am always looking for new
+              challenges and opportunities to grow as a developer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>UI/UX</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>TypeScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>React</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Tailwind</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Next js</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>SASS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Leadership</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Project2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Expense Tracker</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/LeGabriel254/React-Hooks-API.git'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://react-hooks-api.vercel.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/desktop.png" alt="Project 3" class="project-img" style=" width: 83%;" />
+          </div>
+          <h2 class="experience-sub-title project-title">Recipe Page</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/LeGabriel254/Recipe_Page.git/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://recipe-page-five-iota.vercel.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:owinogabrieel@gmail.com">owinogabrieel@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/leon-gabriel-82655b308/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience" >Experience</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">leon.dev</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon"  id="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div  id="menu-links" class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/Ellipse4.jpg" alt="Leon profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Leon Gabriel</h1>
-        <p class="section__text__p2">Software Engineer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('Leon.pdf')"
-          >
-            Resume
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/leon-gabriel-82655b308'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/LeGabriel254'"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/leon.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p style="text-align: justify;">Over one year of experience as a Software Engineer specializing in Frontend Development, <br> with a strong focus on building responsive and user-friendly web applications.</p>
-            </div>
-          <div class="text-container">
-            <p>
-              I am passionate about everything that has to do with Digital design, Art Direction and creating high-quality codes that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.
-            </p>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>UI/UX</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-             
-              </article>
-             
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>React</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Tailwind</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Next js</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Leadership</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
+    <p>Created by Leon Gabriel | &#169; 2023 All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
 
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/Project2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Expense Tracker</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/LeGabriel254/React-Hooks-API.git'"
-              >
-                Github
-              </button>
-              <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://react-hooks-api.vercel.app/'"
-            >
-              Live Demo
-            </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/desktop.png"
-                alt="Project 3"
-                class="project-img"
-                style=" width: 83%;"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Recipe Page</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/LeGabriel254/Recipe_Page.git/'"
-              >
-                Github
-              </button>
-              <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://recipe-page-five-iota.vercel.app/'"
-            >
-              Live Demo
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-     
-      <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#contact'"
-    />
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:owinogabrieel@gmail.com">owinogabrieel@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/leon-gabriel-82655b308/">LinkedIn</a></p>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Created by Leon Gabriel | &#169; 2023 All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
 </html>
