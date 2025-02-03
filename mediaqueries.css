@@ -62,7 +62,7 @@
   }
   footer nav {
     height: fit-content;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem;
   }
   .about-containers,
   .contact-info-upper-container,
